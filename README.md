@@ -2,7 +2,8 @@
 
 ## Introduction
 
-This is a template for NPM projects that helps you generate a project supporting both `CommonJS` and `ES Module` libraries.
+This is a template for NPM projects that helps you generate a project supporting both `CommonJS` and `ES Module`
+libraries.
 
 ## Quick Start
 
@@ -19,10 +20,6 @@ This is a template for NPM projects that helps you generate a project supporting
     src/...
     test/...
 
-### Documentation can be provided if needed.
-
-    docs/...
-
 ### Run test
 
     npm run test
@@ -30,6 +27,10 @@ This is a template for NPM projects that helps you generate a project supporting
 ### Deployment
 
     npm publish
+
+### Documentation can be provided if needed.
+
+    docs/...
 
 ## Donate
 
