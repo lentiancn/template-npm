@@ -1,12 +1,13 @@
-import { vi, describe, it, expect, beforeEach, afterEach } from 'vitest';
+import {afterEach, beforeEach, describe, expect, it, vi} from 'vitest';
 // @ts-ignore
-import { sayHello } from '../src/index.ts';
+import {sayHello} from '../src/index.ts';
 
 describe('sayHello', () => {
     let consoleSpy: any;
 
     beforeEach(() => {
-        consoleSpy = vi.spyOn(console, 'log').mockImplementation(() => {});
+        consoleSpy = vi.spyOn(console, 'log').mockImplementation(() => {
+        });
     });
 
     afterEach(() => {
