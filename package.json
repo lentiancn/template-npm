@@ -1,0 +1,49 @@
+{
+  "name": "template-npm",
+  "version": "1.0.0",
+  "description": "Template for NPM project",
+  "keywords": [
+    "template",
+    "npm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/lentiancn/template-npm"
+  },
+  "license": "MIT",
+  "author": "田隆 (Len)",
+  "type": "module",
+  "main": "./cjs/index.cjs",
+  "module": "./esm/index.js",
+  "types": "./esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./esm/index.d.ts",
+        "default": "./esm/index.js"
+      },
+      "require": {
+        "types": "./cjs/index.d.cts",
+        "default": "./cjs/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "cjs/**",
+    "esm/**",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "clean": "node bin/silent-clean.js",
+    "build": "npm run clean && npm install && tsc -b tsconfig.json && tsc -b tsconfig.cjs.json && node bin/rename-cjs.js",
+    "test": "npm run build && vitest run --coverage",
+    "prepublishOnly": "npm run test"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.0.14",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.14"
+  }
+}

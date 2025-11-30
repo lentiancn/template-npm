@@ -1,0 +1,9 @@
+
+.idea/
+/cjs/
+coverage/
+/esm/
+node_modules/
+
+.DS_Store
+*.tsbuildinfo
