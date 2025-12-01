@@ -22,4 +22,4 @@
  * SOFTWARE.
  */
 
-export * from './demo/index.js'
+export * from './demo/index.js';

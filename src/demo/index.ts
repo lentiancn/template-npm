@@ -23,5 +23,5 @@
  */
 
 export function aFunction() {
-    console.log('Hello world! This is the demo for a function')
+    console.log('Hello world! This is the demo for a function');
 }
