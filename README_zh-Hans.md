@@ -1,5 +1,8 @@
 # Template NPM
 
+[![许可证](https://img.shields.io/github/license/lentiancn/template-npm.svg)](LICENSE)
+[![GitHub 发行版本](https://img.shields.io/github/tag/lentiancn/template-npm.svg?label=release)](https://github.com/lentiancn/template-npm/releases)
+
 [English](README.md) | 简体中文 | [繁體中文](README_zh-Hant.md)
 
 ## 简介
