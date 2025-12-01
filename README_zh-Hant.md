@@ -3,7 +3,7 @@
 [![許可證](https://img.shields.io/github/license/lentiancn/template-npm.svg)](LICENSE)
 [![GitHub 發行版本](https://img.shields.io/github/tag/lentiancn/template-npm.svg?label=release)](https://github.com/lentiancn/template-npm/releases)
 
-[English](README.md) | [简体中文](README_zh-Hans.md) | 繁體中文
+繁體中文 | [English](README.md) | [简体中文](README_zh-Hans.md)
 
 ## 簡介
 
