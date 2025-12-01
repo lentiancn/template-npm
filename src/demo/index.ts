@@ -22,4 +22,6 @@
  * SOFTWARE.
  */
 
-export * from './demo/index.js'
+export function aFunction() {
+    console.log('Hello world! This is the demo for a function')
+}
