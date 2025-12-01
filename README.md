@@ -25,17 +25,18 @@ This is a template for NPM projects that supports both `CommonJS` and `ES Module
 
     npm run test
 
-### Deployment
-
-    npm publish
-
 ### Provide documentation (on demand)
 
     docs/...
 
+### Deployment
+
+    npm publish
+
 ## Donate
 
-If the content was helpful to you, feel free to scan the QR code below to buy me a coffee as support! Your recognition is the greatest motivation for my creation. Thank you so much for your encouragement and support~ (●'◡'●)
+If the content was helpful to you, feel free to scan the QR code below to buy me a coffee as support! Your recognition
+is the greatest motivation for my creation. Thank you so much for your encouragement and support~ (●'◡'●)
 
 <div style="display:flex;">
   <img src="https://gitee.com/lentiancn/lentiancn/raw/master/donate/alipay.jpg" alt="Alipay Donation" width="30%" style="width:40%;">
@@ -45,7 +46,7 @@ If the content was helpful to you, feel free to scan the QR code below to buy me
 
 ## License
 
-`Template NPM` is licensed under the [MIT License](LICENSE).
+`Template NPM` is licensed under the [MIT License](LICENSE) .
 
 ## Contact
 

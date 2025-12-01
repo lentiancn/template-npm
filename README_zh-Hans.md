@@ -25,13 +25,13 @@
 
     npm run test
 
-### 部署
-
-    npm publish
-
 ### 提供文档（按需）
 
     docs/...
+
+### 部署
+
+    npm publish
 
 ## 捐赠
 
